@@ -108,6 +108,22 @@ form button {
     padding: 10px 30px;
 }
 
+.portfolio-item {
+   /* position: relative;*/
+    background-color: #4aaaa5;
+    margin-bottom: 20px;
+    width: 45%;
+    float: left;  
+}
+
+/*.portfolio-item:nth-of-type(even) {
+    float: right;*/
+}
+
+#port1 {
+    background: url(../images/imgport1.jpg);
+}
+
 footer {
     background: #666666;
     border-top: 4px solid #4aaaa5;
