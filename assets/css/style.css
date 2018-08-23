@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    background: url(../images/gravel.png) repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    color: #777777;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background: white;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 35px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1 {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 40px; 
+}
+
+nav a {
+    color: #777777;
+    font-size: 18px;
+    text-decoration: none;
+    border-right: 1px solid #cccccc;
+    padding: 5px 10px;
+}
+
+nav ul li:last-child a {
+    padding-right: none;
+    border-right: none;
+}
+
+#full {
+    width: 960px;
+    padding: 25px;
+    border: 2px solid #cccccc;
+    background: white;
+    margin-bottom: 95px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777777;
+}
+
+P{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 18px;
+    display: block;
+}
+form input, textarea {
+    width: 99%;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+form button {
+    background: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+footer {
+    background: #666666;
+    border-top: 4px solid #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
