@@ -61,13 +61,15 @@ nav ul li:last-child a {
     border-right: none;
 }
 
-#full {
+.full {
     width: 960px;
     padding: 25px;
     border: 2px solid #cccccc;
     background: white;
     margin-bottom: 95px;
 }
+
+
 
 h2 {
     font-size: 24px;
@@ -108,26 +110,75 @@ form button {
     padding: 10px 30px;
 }
 
-.portfolio-item {
-   /* position: relative;*/
-    background-color: #4aaaa5;
+.portfolio {
+    position: relative;
+    /*background-color: #4aaaa5;*/
     margin-bottom: 20px;
-    width: 45%;
-    float: left;  
+    width:45%;
+    float: left; 
+    height: 200px;
 }
 
-/*.portfolio-item:nth-of-type(even) {
+.portfolio:nth-of-type(even) {
     float: right;
-}*/
-
-#port1 {
-    background: url(../images/imgport1.jpg);
 }
 
-footer {
-    background: #666666;
-    border-top: 4px solid #4aaaa5;
+#item {
+    height: 800px;
+}
+
+#item1 {
+    background: url(../images/imgport1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item2 {
+        background: url(../images/imgport2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#item3 {
+    background: url(../images/imgport3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item4 {
+    background: url(../images/imgport4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item5 {
+    background: url(../images/imgport5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#item6 {
+    background: url(../images/imgport6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    background: #4aaaa5;
     color: white;
     text-align: center;
     padding: 10px;
+    bottom: 2px;
+    position: absolute;
+    width: 95.4%;
 }
+
+
+footer {
+        background: #666666;
+        border-top: 4px solid #4aaaa5;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 300px;
+    }
